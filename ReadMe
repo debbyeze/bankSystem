@@ -1,0 +1,6 @@
+models/ → Contains business logic (Account, Bank class).
+controllers/ → Handles API request logic (calls methods from models).
+routes/ → Defines Express routes (maps URLs to controllers).
+config/ → Stores configurations (database connections, environment variables).
+server.js → Initializes the Express server.
+.env → Stores sensitive configs (port, database URL).
